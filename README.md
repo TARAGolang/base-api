@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://www.tensorflow.org/images/tf_logo_transp.png"><br><br>
+  <img src="https://iothings.fr/img/iothings_w_logo_black.png"><br><br>
 </div>
 
 -----------------

@@ -10,7 +10,7 @@
 
 **Base API** is an open source GoLang API library for authentication, payment, mailing and user management.
 
-TensorFlow is developed by coworkers of IoThings
+Base API is developed by coworkers of IoThings
 
 **If you'd like to contribute to Base Api, be sure to review the [contribution
 guidelines](CONTRIBUTING.md).**

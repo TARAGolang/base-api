@@ -1,0 +1,19 @@
+language: go
+
+go:
+  - master
+
+services:
+  - mongodb
+  - redis
+
+script: BASEAPI_ENV=testing go test ./...
+
+go_import_path: github.com/IoThingsDev/base-api
+  
+notifications:
+  email: false
+
+before_install:
+  - openssl genrsa -out base.rsa 2048
+  - openssl rsa -in base.rsa -pubout > base.rsa.pub
